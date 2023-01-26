@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextExtractor">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/extractedText"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/transparent_et"
+            android:maxLines="20"
+            android:padding="30dp"
+            android:scrollbars="vertical"
+            android:text="Extracted Text Will be Shown Here"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Open"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/transparent"
+            android:text="Select File "
+
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/transparent_et"
+            android:maxLines="20"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+
+            android:scrollbars="vertical"
+            android:text="File Name:" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_extract"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/transparent"
+            android:text="Start Listening"
+
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

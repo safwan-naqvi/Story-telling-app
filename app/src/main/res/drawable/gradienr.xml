@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/ic_baseline_play_arrow_24" />
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/purple_700"
+                android:endColor="#ADFF41BE"
+                android:startColor="#FF4157" />
+        </shape>
+    </item>
+</layer-list>

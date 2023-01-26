@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable-v24/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable-v24/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/gradienr.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_mobile_off_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.199" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.199" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/transparent.xml" value="0.2565" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/transparent_et.xml" value="0.2565" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/drawable/transparent_white.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_amazon_polly.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_give_feedback.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_login.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_main2.xml" value="0.12" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_media_player.xml" value="0.18" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_recomended.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_register.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_splash.xml" value="0.371875" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_stories.xml" value="0.1" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/header.xml" value="0.33" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/story_item.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/voice_spinner_row.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Arsalan/Documents/Android Projects/AI Story Teller/app/src/main/res/menu/menu.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/HP/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/Android Projects/AI Story Teller/app/src/main/res/layout/activity_main4.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

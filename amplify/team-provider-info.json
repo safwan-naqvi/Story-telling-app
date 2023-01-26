@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aistoryteller-dev-132442-authRole",
+      "UnauthRoleArn": "arn:aws:iam::211993841856:role/amplify-aistoryteller-dev-132442-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::211993841856:role/amplify-aistoryteller-dev-132442-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-aistoryteller-dev-132442-deployment",
+      "UnauthRoleName": "amplify-aistoryteller-dev-132442-unauthRole",
+      "StackName": "amplify-aistoryteller-dev-132442",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:211993841856:stack/amplify-aistoryteller-dev-132442/a6aa5a00-5e75-11ed-8d46-063dd24fd2e3",
+      "AmplifyAppId": "d3q7awuh6hqx2r"
+    }
+  }
+}

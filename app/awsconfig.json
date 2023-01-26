@@ -1,0 +1,33 @@
+{
+ "Version": "1.0",
+ "CredentialsProvider": {
+    "CognitoIdentity": {
+        "Default": {
+            "PoolId": "ap-northeast-1:e6916b7a-bceb-46fb-b22c-b7cd6afb56a7",
+            "Region": "Regions.AP_NORTHEAST_1"
+        },
+        "Stage": {
+            "PoolId": "STAGE_VALUES",
+            "Region": "STAGE_VALUES"
+        }
+    }
+ },
+ "IdentityManager": {
+    "Default": {},
+    "Stage": {}
+ },
+ "CognitoUserPool": {
+    "Default": {
+        "AppClientSecret": "DIFFERENT_VALUES",
+        "AppClientId": "DIFFERENT_VALUES",
+        "PoolId": "DIFFERENT_VALUES",
+        "Region": "DIFFERENT_VALUES"
+    },
+    "Stage": {
+        "AppClientSecret": "STAGE_VALUES",
+        "AppClientId": "STAGE_VALUES",
+        "PoolId": "STAGE_VALUES",
+        "Region": "STAGE_VALUES"
+    }
+ }
+}

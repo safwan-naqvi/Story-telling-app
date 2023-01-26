@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853299015868",
+    "project_id": "ai-story-teller-d46f0",
+    "storage_bucket": "ai-story-teller-d46f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853299015868:android:21b5681f6e161fdbc7a0b9",
+        "android_client_info": {
+          "package_name": "com.comsats.aistoryteller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853299015868-e117bhgtdg8e6subgfmsv0rgev872fcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTX32cEy5LnBGrgggPHXfH4NaUBA_OlEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853299015868-e117bhgtdg8e6subgfmsv0rgev872fcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

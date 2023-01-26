@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/history"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="History" />
+        <item
+            android:id="@+id/recomendation"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="Recomended Stories" />
+        <item
+            android:id="@+id/all_stories"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="All Stories" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_mobile_off_24"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Commuication">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Languages"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Languages" />
+                <item
+                    android:id="@+id/About"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="Abut us" />
+            </group>
+        </menu>
+    </item>
+</menu>

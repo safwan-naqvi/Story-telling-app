@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/app_creame"
+    tools:context=".AmazonPolly">
+
+    <TextView
+        android:id="@+id/spinner_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:fontFamily="@font/corsa_light"
+        android:text="Choose Language"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/voicesSpinner"
+        style="@style/spinner_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_label"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:outlineAmbientShadowColor="@color/appOrange"
+        android:outlineSpotShadowColor="@color/appOrange"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sampleText"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_below="@+id/voicesSpinner"
+        android:textColorHint="@color/appWhite"
+        app:boxStrokeColor="@color/appWhite"
+        app:boxStrokeWidth="@dimen/_2sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/corsa_regular"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:gravity="top"
+            android:imeActionLabel="Read"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+
+        android:id="@+id/voicesProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/defaultTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sampleText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/readButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="playVoice"
+            android:background="@drawable/transparent"
+            android:text="Read"
+            android:backgroundTint="@color/appOrange"
+            android:layout_margin="@dimen/_2sdp"
+            android:fontFamily="@font/coco_regular"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/extractText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/readButton"
+            android:background="@drawable/transparent"
+            android:backgroundTint="@color/appWhite"
+            android:fontFamily="@font/coco_regular"
+            android:onClick="extractTxt"
+            android:text="Extract Text"
+            android:textColor="@color/app_black"
+            android:textSize="@dimen/_14sdp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
